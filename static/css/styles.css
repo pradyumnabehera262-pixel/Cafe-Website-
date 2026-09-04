@@ -1,0 +1,105 @@
+/*body and global styles*/
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cbd8e0;
+    font-family: 'montserrat', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+/*header*/
+header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 10vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 9vh, rgba(0, 0, 0, 0.4) 25vh), url('../images/backgrounds/headerBackground.jpg');
+    background-size: cover;
+}
+
+.top-logo {
+    width: 18vh;
+    align-self: left;
+    position: absolute;
+}
+
+.hero-logo {
+    width: 25vw;
+    align-self: center;
+}
+
+/*menu*/
+menu {
+    width: 100%;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    gap: 2vw;
+    padding: 2vh 0;
+}
+
+menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.hero {
+    width: 100%;
+
+    padding: 10vh 20vh 10vh 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+}
+
+.hero p {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+/*login button*/
+.login-btn,
+.hero-login-btn {
+    width: 10vw;
+    height: 5vh;
+
+    background-color: #ffffff;
+    color: #000000;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 20px;
+}
+
+.hero-login-btn {
+    margin-top: 5vh;
+}
+
+/*main*/
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 10vw;
+}
