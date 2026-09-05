@@ -11,8 +11,9 @@
 <body>
     <!-- The header section contains the logo, navigation menu, and a hero section with a welcome message and login button. -->
     <header>
-        <img class="top-logo" src="..\static\images\logos\cafeLogoWhite.png" alt="Cafe Logo">  <!--logo image at the top header-->
-        <menu> <!--navigation menu at the top header-->
+        <img class="top-logo" src="..\static\images\logos\cafeLogoWhite.png" alt="Cafe Logo">
+        <!--logo image at the top header-->
+        <menu id="menu"> <!--navigation menu at the top header-->
             <a href="">Home</a>
             <a href="">Menu</a>
             <a href="">About</a>
@@ -21,8 +22,15 @@
                 <button class="login-btn">Login/SignIn</button> <!--login button at the top header-->
             </div>
         </menu>
+        <svg id="menuBtn" class="menu-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+            viewBox="0 0 24 24">
+            <path
+                d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z">
+            </path>
+        </svg>
         <div class="hero"> <!--hero section at the top header-->
-            <img class="hero-logo" src="..\static\images\logos\cafeLogo.png" alt="Cafe Logo"> <!--logo image at the hero section-->
+            <img class="hero-logo" src="..\static\images\logos\cafeLogo.png" alt="Cafe Logo">
+            <!--logo image at the hero section-->
             <p>Welcome to our Cafe!</p>
             <p>Enjoy the best coffee and pastries in town!</p>
             <div>
@@ -36,8 +44,13 @@
         <!-- The introduction section provides a warm welcome and describes the café's atmosphere and menu. -->
         <section class="intro">
             <h2>Introduction</h2>
-            <p>Welcome to our café, where every sip feels like home and every bite is crafted with care. From the rich aroma of freshly brewed coffee to the comforting charm of our cozy space, we’re here to make your day a little brighter. Whether you’re stopping by for a quick pick‑me‑up or settling in for a long chat with friends, our café is the perfect blend of flavor, warmth, and community.</p>
-            <p>Our menu is inspired by simple pleasures—freshly roasted beans, wholesome ingredients, and recipes that bring comfort with every bite. We believe a café should be more than a stop; it should be a place to pause, connect, and enjoy life’s small joys.</p>
+            <p>Welcome to our café, where every sip feels like home and every bite is crafted with care. From the rich
+                aroma of freshly brewed coffee to the comforting charm of our cozy space, we’re here to make your day a
+                little brighter. Whether you’re stopping by for a quick pick‑me‑up or settling in for a long chat with
+                friends, our café is the perfect blend of flavor, warmth, and community.</p>
+            <p>Our menu is inspired by simple pleasures—freshly roasted beans, wholesome ingredients, and recipes that
+                bring comfort with every bite. We believe a café should be more than a stop; it should be a place to
+                pause, connect, and enjoy life’s small joys.</p>
         </section>
 
         <!-- The featured menu section highlights popular items with images, names, descriptions, and prices. -->
@@ -57,7 +70,8 @@
         <!-- The special offer section promotes a limited-time discount to encourage customers to visit the café. -->
         <section class="offer">
             <h2>Special Offer</h2>
-            <p>Don't miss out on our limited-time offer! Get 20% off your entire order when you visit us this week. Available for a limited time only.</p>
+            <p>Don't miss out on our limited-time offer! Get 20% off your entire order when you visit us this week.
+                Available for a limited time only.</p>
         </section>
 
         <!-- The gallery section showcases images of the café, its ambiance, and menu items to entice customers. -->
@@ -84,7 +98,7 @@
             <h2>Customer Reviews</h2>
             <section class="review">
                 <p>"The coffee here is amazing! I love the cozy atmosphere."</p>
-                <p>Kitagawa Marin</p>  
+                <p>Kitagawa Marin</p>
             </section>
         </section>
 
@@ -124,6 +138,7 @@
         </div>
         <p>&copy; 2026 Cafe. All rights reserved.</p>
     </footer>
-
+<script src="..\static\js\scripts.js"></script>
 </body>
+
 </html>
